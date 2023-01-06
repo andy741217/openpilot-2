@@ -212,7 +212,7 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 1450. + STD_CARGO_KG
     elif candidate == CAR.STINGER_CK:
       ret.mass = 1650. + STD_CARGO_KG
-      ret.wheelbase = 2.905
+      ret.wheelbase = 2.90
     elif candidate == CAR.K3_BD:
       ret.mass = 1260. + STD_CARGO_KG
       ret.wheelbase = 2.70
